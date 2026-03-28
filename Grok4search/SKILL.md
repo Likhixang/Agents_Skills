@@ -1,6 +1,6 @@
 ---
 name: Grok4search
-description: 调用 Grok 兼容接口执行搜索，只返回搜索结果整理，不执行其他任务。
+description: 调用 Grok 兼容接口执行搜索，只返回搜索结果整理，不执行其他任务. Uses a Grok-compatible API for search only and returns concise search results without performing other tasks.
 ---
 
 # Grok4search
