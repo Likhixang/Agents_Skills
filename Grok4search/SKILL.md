@@ -1,3 +1,8 @@
+---
+name: Grok4search
+description: 调用 Grok 兼容接口执行搜索，只返回搜索结果整理，不执行其他任务。
+---
+
 # Grok4search
 
 一个只用于调用 Grok 接口执行搜索的 Skill，不承担代码生成、数据分析或其他扩展任务。
