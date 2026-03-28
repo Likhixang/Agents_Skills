@@ -14,7 +14,7 @@ my-skill/
 
 目前已包含：
 
-- `Grok4search`：只负责调用 Grok 接口执行搜索的 Skill
+- `Grok4search`：只负责调用 Grok 接口执行搜索的 Skill，推荐使用 `assets/.env` 配置
 
 ## 仓库用途
 

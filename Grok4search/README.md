@@ -2,6 +2,8 @@
 
 `Grok4search` 是一个只负责调用 Grok 做搜索的 Skill。
 
+推荐使用 `assets/.env` 配置，不需要 `export`。
+
 它不负责代码生成、代码修改、测试执行或额外抓取。
 
 ## 安装
