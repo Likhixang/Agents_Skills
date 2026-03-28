@@ -2,7 +2,17 @@
 
 `Grok4search` 是一个只负责调用 Grok 做搜索的 Skill。
 
+它不负责代码生成、代码修改、测试执行或额外抓取。
+
 ## 安装
+
+如果你只想安装这个 Skill，可以直接用 `npx` 拉取：
+
+```bash
+npx degit Likhixang/Agents_Skills/Grok4search
+```
+
+如果你已经克隆了整个仓库，也可以直接使用当前目录。
 
 把目录放到你的 Skills 目录后，按下面配置即可使用。
 
@@ -19,6 +29,12 @@ GROK_MODEL=grok-4
 ```
 
 也可以使用 [assets/config.json](/home/li_khixang/Agents_Skills/Grok4search/assets/config.json)，但优先推荐 `.env`。
+
+如果你使用 `npx degit` 拉取后，初始化步骤也是一样的：
+
+1. 进入 `Grok4search`
+2. 复制 `assets/.env.example` 为 `assets/.env`
+3. 填写配置后开始使用
 
 ## 使用
 
